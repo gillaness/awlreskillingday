@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="css/style.css">
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
@@ -11,7 +12,7 @@
 <c:if test="${lmensaje != null}">
 	<h3></h3>
 </c:if>
-	<h1>Bienvenido al sitio</h1>
+	<h1>Bienvenido al sitio - Segunda Version</h1>
 	<form method="post" action="ValidarUsuario">
 	Nombre: <input type="text" name="txtlogin" /><br/>
 	Clave: <input type="password" name="txtclave" /><br/>
